@@ -5,8 +5,8 @@ package FunctionalInterfaces;
 interface sayable2{  
     void say(String msg);   // abstract method  
 }  
-@FunctionalInterface  
-interface Doable extends sayable2{  
-    // Invalid '@FunctionalInterface' annotation; Doable is not a functional interface  
-    void doIt();  
-}  
+//@FunctionalInterface  
+//interface Doable1 extends sayable2{  
+//    // Invalid '@FunctionalInterface' annotation; Doable is not a functional interface  
+//    void doIt();  
+//}  

@@ -1,10 +1,10 @@
 package FunctionalInterfaces;
 
 @FunctionalInterface  
-interface sayable{  
+interface sayable3{  
     void say(String msg);  
 }  
-public class FunctionalInterfaceEx implements sayable{  
+public class FunctionalInterfaceEx implements sayable3{  
     public void say(String msg){  
         System.out.println(msg);  
     }  
